@@ -82,3 +82,9 @@ categories: 0x01_MemoryForensic
 > **printkey** - 특정 레지스트리 키에 포함되어 있는 하위 키(Subkeys) 값과 데이터를 검색하여 나열
 
 > **userassist** – 메모리 덤프 파일에서 UserAssist 관련 레지스트리 키 정보 추출
+
+
+
+## Comments
+
+{% include comments.html %}
