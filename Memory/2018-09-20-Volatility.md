@@ -141,6 +141,12 @@ $ vol.py -f [이미지경로] procexedump -D [저장경로] -p [PID]
 
 
 
+
+
+[Volatility Github]: https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#psscan
+
+
+
 ## Comments
 
 {% include comments.html %}
