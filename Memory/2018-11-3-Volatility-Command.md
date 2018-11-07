@@ -7,6 +7,62 @@ tag: [VolatilityCommand]
 categories: 0x01_MemoryForensic
 ---
 
+# Plugins
+
+
+
+Image Identification : 덤프 파일의 하드웨어 정보
+
+  \- imageinfo, kdbgscan, kprcscan
+
+
+
+Processes and DLLs : 프로세스 분석 및 DLL 분석
+
+  \- pslist, pstree, psscan, dlllist, dlldump, handles, getsids, verinfo, enumfunc
+
+
+
+Process Memory : 프로세스 메모리 분석
+
+  \- memmap, memdump, procmemdump, procexedump, vadwalk, vadtree, vadinfo, vaddump
+
+
+
+Kernel Memory and Objects : 커널 분석
+
+  \- modules, modscan, moddump, ssdt, driverscan, filescan, mutantscan, symlinkscan, thrdscan
+
+
+
+Networking : 네트워크 분석
+
+  \- connections, connscan, Sockets, sockscan, netscan
+
+
+
+Registry : 레지스트리 분석
+
+  \- hivescan, hivelist, printkey, hivedump, hashdump, lsadump, userassist
+
+
+
+Crash Dumps, Hibernation, and Conversion : 덤프 분석
+
+  \- crashinfo, , hibinfo, imagecopy
+
+
+
+Malware and Rootkits : 악성코드 및 루트킷 분석
+
+  \- malfind, , svcscan, ldrmodules, impscan, apihooks, idt, gdt, threads, callbacks, driverirp, devicetree, psxview, ssdt_ex, timers
+
+
+
+Miscellaneous : 스트링 분석
+
+  \- strings, volshell, bioskbd, yarascan
+
 
 
 ## Volatility 명령어
